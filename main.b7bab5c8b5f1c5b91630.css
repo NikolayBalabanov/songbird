@@ -1,0 +1,357 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap);
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+:root{--color-white: #fff;--color-main-bg: #15112d;--color-black: #000000;--color-red: #de3c4b;--color-btn: #5897db;--color-btn1: #37a09b;--color-green: rgba(121, 206, 103, .5);--color-green-active: #30b155;--color-yellow1: #fde74c;--color-yellow2: #ffe457;--color-blue: #022b99;--color-gray1: #514e60;--color-gray2: #40483f;--color-velvet1: #ad9cd4;--color-velvet2: #8767bb;--color-hover: #008dd5}html{box-sizing:border-box;scroll-behavior:smooth}*,*::before,*::after{box-sizing:inherit}body{margin:0;font-family:"Roboto",sans-serif;background-color:var(--color-main-bg)}img{max-width:100%}a{text-decoration:none}.list-reset{list-style:none;margin:0;padding:0}.container{margin:0 auto;padding:0px 15px;max-width:1370px}.btn{padding:16px 21px;font-style:normal;font-weight:500;font-size:20px;line-height:20px;color:var(--color-white);border:none;border-radius:7px;background-color:var(--color-blue);cursor:pointer;outline:none;transition:background-color .15s ease-in-out}.btn:focus{background-color:var(--color-hover)}.btn:hover{background-color:var(--color-hover)}.btn:active{background-color:var(--color-btn)}.btn:disabled{cursor:not-allowed;background-color:var(--color-velvet1)}.loader{padding:0;width:64px;height:64px;border:2px solid var(--color-main);border-top:2px solid rgba(0,0,0,0);border-radius:100%;animation:spin 1.5s ease-in-out infinite}@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.header{border-bottom:1px solid var(--color-velvet1)}.header__container{padding-top:15px;padding-bottom:15px;display:flex;justify-content:space-between;flex-wrap:wrap}@media(max-width: 500px){.header__container{flex-direction:column;justify-content:center;align-items:center}}.about{position:relative}.about__bg{position:absolute;z-index:-1;left:0;top:0;width:100%;height:100%;background-repeat:no-repeat;background-position:center;background-size:cover;animation-name:resize-change;animation-duration:20s;animation-iteration-count:infinite;animation-direction:alternate}.about__container{position:relative;overflow:hidden;z-index:1;min-height:550px;padding-top:30px;padding-bottom:30px;display:flex;flex-direction:column;justify-content:start}@media(max-width: 500px){.about__container{min-height:400px}}.about__heading{margin:0;margin-bottom:55px;max-width:100%;font-weight:600;font-size:55px;line-height:1;color:var(--color-white)}@media(max-width: 500px){.about__heading{margin-bottom:40px;font-size:40px}}.about__descr{margin:0;margin-bottom:25px;font-weight:500;font-size:32px;line-height:1;color:var(--color-white)}@media(max-width: 500px){.about__descr{margin-bottom:40px;font-size:22px}}.about__link{align-self:flex-start}.footer{border-top:1px solid var(--color-velvet1)}.footer__container{padding-top:25px;padding-bottom:25px}.footer__list{display:flex;justify-content:space-between;align-items:center;list-style:none;flex-wrap:wrap}@media(max-width: 500px){.footer__list{justify-content:space-around}}.footer__year{font-size:20px;font-weight:600;color:var(--color-white);pointer-events:none}.footer__link{display:inline-flex;align-items:center;font-size:20px;font-weight:normal;color:var(--color-white);transition:color .15s ease-in-out,transform .15s ease-in-out}.footer__link:hover{color:var(--color-green-active);transform:scale(1.1);transition:color .15s ease-in-out,transform .15s ease-in-out}.footer__link:focus{color:var(--color-green-active);transform:scale(1.1)}.footer__link:active{color:var(--color-green-active);transform:scale(0.9)}.footer__link--github::before{content:"";margin-right:15px;display:inline-block;width:40px;height:40px;background-image:url(26751a1585ceb12e122c.svg);background-repeat:no-repeat}@media(max-width: 500px){.footer__link--github::before{width:20px;height:20px}}.footer__link--rss{display:inline-block;width:88px;height:33px;background-image:url(ad4836f0ac7d71e692c3.svg);background-repeat:no-repeat}@media(max-width: 500px){.footer__link--rss{margin-top:15px}}.nav{display:flex;align-items:center;list-style:none}.nav__item:not(:last-child){margin-right:35px}.nav__link{font-weight:600;font-size:20px;line-height:1;color:var(--color-white)}.nav__link--prime{color:var(--color-green-active)}@keyframes resize-change{0%{opacity:.3;background-image:url(a8d1bcde70d03f0eef40.jpg)}15%{opacity:1;background-image:url(a8d1bcde70d03f0eef40.jpg)}30%{opacity:.3;background-image:url(824011eab9e942486a66.jpg)}45%{opacity:1;background-image:url(824011eab9e942486a66.jpg)}60%{opacity:.3;background-image:url(304433abfd5094762219.jpg)}75%{opacity:1;background-image:url(304433abfd5094762219.jpg)}100%{opacity:.3;background-image:url(304433abfd5094762219.jpg)}}
+.header{border-bottom:1px solid var(--color-velvet1)}.header__score{display:flex;align-items:center}.header__score-text,.header__score-value{font-weight:500;font-size:20px;color:var(--color-white)}.header__score-text{margin-right:10px}.levels{margin-top:15px;margin-bottom:15px}.levels__list{display:flex;justify-content:space-between;flex-wrap:wrap;border-radius:10px;overflow:hidden}.levels__item{flex:auto;padding:10px 20px;text-align:center;background-color:var(--color-green)}.current-level{background-color:var(--color-green-active)}.question{margin-bottom:15px}.question__body{padding:16px;display:flex;border-radius:10px;background-color:var(--color-gray1);overflow:hidden}@media(max-width: 568px){.question__body{flex-direction:column;align-items:center}}.question__img{margin:0;margin-right:40px;width:200px;height:155px;border-radius:10px;object-fit:cover}@media(max-width: 568px){.question__img{margin-right:0px;margin-bottom:10px}}.question__content{display:flex;flex-direction:column;width:100%}.question__item{padding:8px}.question__item:first-child{border-bottom:1px solid var(--color-velvet1)}.question__title{margin:0;font-size:32px;line-height:1;color:var(--color-white)}@media(max-width: 568px){.question__title{text-align:center}}.answers-section{margin-bottom:15px}.answers-section__content{margin-left:-15px;margin-right:-15px;margin-bottom:15px;display:flex;flex-wrap:wrap;justify-content:space-between}@media(max-width: 768px){.answers-section__content{flex-direction:column}}.answers-section__item{padding-left:15px;padding-right:15px;flex:0 0 50%;width:50%}@media(max-width: 768px){.answers-section__item{flex:0 0 100%;width:100%}.answers-section__item:first-child{margin-bottom:15px}}.answers{display:flex;flex-direction:column}.answers__item{padding:12px 30px;border-left:1px solid var(--color-velvet1);border-right:1px solid var(--color-velvet1);border-bottom:1px solid var(--color-velvet1);background-color:var(--color-gray1);cursor:pointer;transition:background-color .15s ease-in-out,border .15s ease-in-out}.answers__item:first-child{border-top:1px solid var(--color-velvet1);border-top-left-radius:10px;border-top-right-radius:10px}.answers__item:last-child{border-bottom-left-radius:10px;border-bottom-right-radius:10px}.answers__item:hover{border-left:1px solid var(--color-velvet1);border-right:1px solid var(--color-velvet1);border-bottom:1px solid var(--color-velvet1);background-color:var(--color-green)}.answers__text{position:relative;font-size:20px;line-height:1;color:var(--color-white)}.answers__text::before{content:"";position:absolute;top:50%;left:-16px;width:8px;height:8px;border-radius:50%;background-color:var(--color-white);transform:translateY(-50%)}.correct .answers__text::before{content:"";background-color:var(--color-green-active)}.error .answers__text::before{content:"";background-color:var(--color-red)}.info{display:flex;flex-direction:column;padding:16px;height:100%;border-radius:10px;background-color:var(--color-gray1)}.info__instructions{margin:0}.info__text{margin:0;display:block;color:var(--color-white)}.info__body{margin-bottom:20px;display:flex}@media(max-width: 1000px){.info__body{flex-direction:column;align-items:center}}@media(max-width: 768px){.info__body{flex-direction:row}}@media(max-width: 568px){.info__body{flex-direction:column;align-items:center}}.info__img{margin-right:2rem;width:200px;height:155px;border-radius:10px;object-fit:cover}@media(max-width: 1000px){.info__img{margin-right:0px;margin-bottom:10px}}@media(max-width: 768px){.info__img{margin-right:2rem;margin-bottom:0px}}@media(max-width: 568px){.info__img{margin-right:0px;margin-bottom:10px}}.info__content{display:flex;flex-direction:column;width:100%}.info__title,.info__subtitle,.info__descr{margin:0;margin-bottom:10px;line-height:1;color:var(--color-white)}.info__title,.info__subtitle{padding-bottom:10px;border-bottom:1px solid var(--color-velvet1)}@media(max-width: 1000px){.info__title,.info__subtitle{text-align:center}}@media(max-width: 568px){.info__title,.info__subtitle{text-align:center}}.info__title{font-size:24px}.info__subtitle,.info__descr{font-size:20px}@media(max-width: 568px){.info__subtitle,.info__descr{font-size:18px}}.next-btn{width:100%}.hidden{display:none}
+.music-player{position:relative;display:flex;align-items:center;justify-content:space-between}.music-player__timebar{margin:0px 15px;padding-top:15px;position:relative;width:calc(100% - 100px)}.music-player__seek-bar{-webkit-appearance:none;width:100%;height:6px;border-radius:6px;background-color:var(--color-white);overflow:hidden;cursor:pointer}.music-player__seek-bar::-webkit-slider-thumb{-webkit-appearance:none;display:block;width:6px;height:6px;border-radius:50%;background-color:var(--color-black);box-shadow:-500px -5px 5px 500px var(--color-velvet2)}.music-player__duration,.music-player__current-time{font-weight:normal;font-size:16px;color:#fff}.music-player__duration{position:absolute;right:0}.music-player__controls{display:flex;align-items:center;justify-content:center}.music-player__play-btn{position:relative;display:block;width:40px;height:40px;border:none;border-radius:50%;background-color:var(--color-velvet1);cursor:pointer;animation:pulse 1.5s linear infinite;transition:background-color .15s ease-in-out}.music-player__play-btn:hover{background-color:var(--color-velvet2)}.music-player__play-btn .play-btn__line{position:absolute;top:50%;left:25%;transform:translateY(-50%);width:7px;height:18px;border-radius:2px;background-color:var(--color-black);clip-path:polygon(0 0, 100% 0, 100% 100%, 0 100%);transition-property:transform,border-radius,clip-path,left;transition-duration:.3s;transition-timing-function:ease}.music-player__volume-btn{display:flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;border:none;background-color:var(--color-velvet1);cursor:pointer;transition:background-color .15s ease-in-out}.music-player__volume-btn:hover{background-color:var(--color-velvet2)}.music-player__high-valume{display:block;width:15px;height:15px;background:url(059e84305dde63293f41.svg);background-position:center;background-repeat:no-repeat}.music-player__off-valume{display:block;width:15px;height:15px;background:url(a7f655cbef112a6da055.svg);background-position:center;background-repeat:no-repeat}.music-player__play-btn .play-btn__line:nth-child(2){left:55%}.music-player__volume{position:absolute;display:block;right:-10px;opacity:0;visibility:hidden;pointer-events:none;top:0;transition:transform .15s ease,opacity .15s ease}.music-player__volume--active{transform:translateY(-42px);opacity:1;visibility:visible;pointer-events:initial}.music-player__volume-bar{-webkit-appearance:none;width:50px;height:8px;border-radius:6px;background-color:var(--color-white);overflow:hidden;transform:rotate(-90deg);cursor:pointer}.music-player__volume-bar::-webkit-slider-thumb{-webkit-appearance:none;display:block;width:8px;height:8px;border-radius:50%;background-color:var(--color-black);box-shadow:-500px -5px 5px 500px var(--color-velvet2)}.music-player__volume-wrap::after,.music-player__volume-wrap::before{content:"";position:absolute;display:block;width:16px;height:16px;left:50%;background-position:center;background-repeat:no-repeat;transform:translateX(-50%)}.music-player__volume-wrap::after{top:-30px;background-image:url(059e84305dde63293f41.svg)}.music-player__volume-wrap::before{top:37px;background-image:url(a7f655cbef112a6da055.svg)}.pause .play-btn__line:nth-child(2){transform:translateY(-50%) scale(0)}.pause .play-btn__line:nth-child(1){width:40%;left:55%;transform:translate(-50%, -50%);border-radius:0;clip-path:polygon(0 0, 100% 50%, 100% 50%, 0 100%)}@keyframes pulse{0%{box-sizing:0}50%{box-sizing:0 0 0 5px rgba(255,255,255,.1)}100%{box-sizing:0 0 0 5px rgba(255,255,255,.4)}}
+.finish{position:relative}.finish__bg{position:absolute;z-index:-1;left:0;top:0;width:100%;height:100%;background-repeat:no-repeat;background-position:center;background-size:cover;animation-name:resize-change;animation-duration:20s;animation-iteration-count:infinite;animation-direction:alternate}.finish__container{position:relative;overflow:hidden;z-index:1;min-height:550px;padding-top:30px;padding-bottom:30px;display:flex;flex-direction:column;justify-content:start}.finish__heading{margin:0;margin-bottom:55px;max-width:80%;font-weight:600;font-size:55px;line-height:1;color:var(--color-white)}.finish__congrats{margin:0;margin-bottom:25px;max-width:80%;font-weight:500;font-size:32px;line-height:1.3;color:var(--color-white)}.finish__link{align-self:flex-start}
+.header__logo{width:200px;height:55px;background-image:url(122afc8330fc5f9395db.svg);background-size:contain;background-repeat:no-repeat}@media(max-width: 500px){.header__logo{margin-bottom:15px}}
